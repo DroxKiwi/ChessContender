@@ -2,7 +2,7 @@
 set -o errexit -o nounset -o xtrace -o pipefail
 source ../.env.dev
 systemctl restart postgresql
-createdb database_dev_studiecf
+createdb database_chesscontender
 cd ../Models
 node init_models.js
 cd ../Fixtures
