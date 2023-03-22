@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -o errexit -o nounset -o xtrace -o pipefail
 source ../.env.dev
 systemctl restart postgresql

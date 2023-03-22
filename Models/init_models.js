@@ -10,7 +10,6 @@ const pool = new Pool({
     password: 'psqlpsw',
 })
 
-
 // Import and red the SQL file
 
 
