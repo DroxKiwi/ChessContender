@@ -1,0 +1,55 @@
+body{
+    background-color: #444444;
+    color: #ffffff;
+    font: 1.2em "Timmana", serif;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+    background-color: rgb(166, 176, 240) !important;
+    color: rgb(48, 48, 48);
+}
+
+.userselect:hover{
+    background-color: rgb(162, 192, 162) !important;
+}
+  
+html, body {
+box-sizing: border-box;
+height: 100%;
+padding: 0;
+margin: 0;
+}
+
+h1{
+font-family: 'Geo', sans-serif;
+}
+
+p{
+font-family: 'Ultra', sans-serif;
+}
+
+a{
+color:#8f8829 !important;
+}
+
+.footer {
+color: black;
+background-color: grey;
+height: 10vh;
+position: fixed;
+bottom: 0;
+left: 0;
+opacity: 70%;
+}/*# sourceMappingURL=styledark.css.map */
+
+.imgHome{
+border-radius: 50px;
+height: 50vh;
+margin: 20px;
+box-shadow: 7px 3px 3px black;
+}
+
+.imgHome:hover{
+box-shadow: 10px 5px 5px black;
+}
