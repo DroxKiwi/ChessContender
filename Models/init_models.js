@@ -6,8 +6,17 @@ const { Pool } = require('pg')
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'database_dev_studiecf',
+    database: 'chesscontenderDB',
     password: 'psqlpsw',
+})
+
+const usersModel = fs.readFileSync('users.sql').toString()
+
+pool.query(usersModel, (err, result) => {
+    if (err) throw err
+    else {
+        console.log("usersModel loaded !")
+    }
 })
 
 // Import and red the SQL file
