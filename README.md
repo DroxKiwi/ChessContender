@@ -10,7 +10,7 @@ Basé sur le jeu d'échec qu'on connait tous, mais avec des modifications.
 - Les pions seront des rappeurs français connu
 - Lorsque les pions meurent, ou tuent une punchline du rappeur est dite !
 - Lorsque le joueur met trop de temps à jouer, les pions l'insultent
-- Lorsque le joueur met beacoup trop de temps à jouer, les pions jouent d'eux même ! Il faut jouer vite !
+- Lorsque le joueur met beaucoup trop de temps à jouer, les pions jouent d'eux même ! Il faut jouer vite !
 
 # Comment installer l'app en local !
 
