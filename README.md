@@ -5,7 +5,7 @@ Un jeu d'échec mais avec quelques ajouts
 
 - ### Faire une version débile du jeu d'échec emblématique !
 
-Basé sur le jeu d'échec qu'on connais tous, mais avec des modifications.
+Basé sur le jeu d'échec qu'on connait tous, mais avec des modifications.
 
 - Les pions seront des rappeurs français connu
 - Lorsque les pions meurent, ou tuent une punchline du rappeur est dite !
