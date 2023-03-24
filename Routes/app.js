@@ -1,7 +1,7 @@
-const { home } = require("../Controllers/app")
+const { boardgame } = require("../Controllers/app")
 
 function appRoute(app){
-    app.get('/home', home)
+    app.get('/', boardgame)
 }
 
 module.exports = appRoute

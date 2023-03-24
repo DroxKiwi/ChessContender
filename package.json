@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "env-cmd -f ./.env.dev node index.js"
+    "dev": "env-cmd -f ./.env.dev node index.js",
+    "prod": "env-cmd -f ./.env.prod node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "crypto-js": "^4.1.1",
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
+    "jquery": "^3.6.4",
     "nodemon": "^2.0.22",
     "pg": "^8.10.0",
     "twig": "^1.16.0",

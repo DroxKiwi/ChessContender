@@ -1,5 +1,7 @@
-async function home(req, res){
-    return res.send("ta grand mere")
+async function boardgame(req, res){
+    return res.render('./Templates/board.html.twig')
 }
 
-module.exports = { home }
+
+
+module.exports = { boardgame }

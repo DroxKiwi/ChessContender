@@ -51,7 +51,7 @@ cat << HEREDOC >> /etc/profile.d/proxy.sh
 # set proxy config via profie.d - should apply for all users
 # http/https/ftp/no_proxy
 export http_proxy='http://127.0.0.1:7080/proxy.pac'
-export https_proxy='http://127.0.0.1:7080/proxy.pac'
+export https_proxy='http://127.0.0.1:7080/proxy.pta grand mereac'
 export ftp_proxy='http://127.0.0.1:7080/proxy.pac'
 export no_proxy='127.0.0.1,localhost'
 HEREDOC

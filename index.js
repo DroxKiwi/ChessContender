@@ -5,6 +5,8 @@ const app = express()
 const port = process.env.PORT || 3001
 
 app.use(express.json())
+app.use(express.static('Public'))
+app.use(express.static('Client'))
 
 // set as view engine 
 app.set('view engine', 'twig')

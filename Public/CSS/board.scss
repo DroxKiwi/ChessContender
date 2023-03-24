@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  positiion:relative;
+  color:white;
+}
+#chessboard {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  box-sizing: border-box;
+  border: 3px solid #50312b;
+  margin: auto;
+
+}
+
+.row{
+  background-color: #ff0000;
+  box-sizing: border-box;
+  width: 512px;
+  height: 64px;
+}
+
+.cell {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.cell-white {
+  background-color: #efe0d1;
+}
+
+.cell-black {
+  background-color: #70433c;
+}
+
+.active {
+  border: 1px solid red;
+  color: red;
+}
