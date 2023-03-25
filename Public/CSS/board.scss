@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(49, 49, 49);
 }
 h1 {
   text-align: center;
@@ -7,6 +7,7 @@ h1 {
   positiion:relative;
   color:white;
 }
+
 #chessboard {
   position: relative;
   width: 512px;
@@ -18,7 +19,6 @@ h1 {
 }
 
 .row{
-  background-color: #ff0000;
   box-sizing: border-box;
   width: 512px;
   height: 64px;
@@ -41,7 +41,17 @@ h1 {
   background-color: #70433c;
 }
 
-.active {
+.selected {
   border: 1px solid red;
   color: red;
+}
+
+.whitepawn{
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.blackpawn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
