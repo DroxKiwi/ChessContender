@@ -1,10 +1,12 @@
 // Au clic, on ajoute la classe .active à l'élément en paramètre
 function selectCell(element) {
     element.addEventListener('click', function() {
-        var cellActivated = document.querySelectorAll('.selected')
-        element.classList.toggle('selected')
-        for (var i = 0; i < cellActivated.length; i++){
-            cellActivated[i].classList.remove('selected')
+        if (element.classList.contains('whitepawn') || element.classList.contains('blackpawn')){
+            var cellSelected = document.querySelectorAll('.selected')
+            element.classList.toggle('selected')
+            for (var i = 0; i < cellSelected.length; i++){
+                cellSelected[i].classList.remove('selected')
+            }
         }
     });
 }

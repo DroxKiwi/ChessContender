@@ -20,13 +20,13 @@ function init_game(){
             var cells = row[m].childNodes[n]
             if (m == 0){
                 cells.innerHTML = whitepawntop1[n]
-                cells.classList.add(whitepawntop1[n] + "w")
+                cells.classList.add(whitepawntop1[n])
                 cells.classList.add("whitepawn")
             }
             else {
                 cells.innerHTML = whitepawntop2[n]
-                cells.classList.add(whitepawntop2[n] + "w")
-                cells.classList.add("whitepawn")
+                cells.classList.add(whitepawntop2[n])
+                cells.classList.add("whitepawn")    
             }
         }
     }
@@ -37,15 +37,22 @@ function init_game(){
             var cells = row[m].childNodes[n]
             if (m == 6){
                 cells.innerHTML = blackpawnbot1[n]
-                cells.classList.add(blackpawnbot1[n] + "b")
+                cells.classList.add(blackpawnbot1[n])
                 cells.classList.add("blackpawn")
             }
             else {
                 cells.innerHTML = blackpawnbot2[n]
-                cells.classList.add(blackpawnbot2[n] + "b")
+                cells.classList.add(blackpawnbot2[n])
                 cells.classList.add("blackpawn")
             }
         }
+    }
+}
+
+function move_pawn(){
+    var cellSelected = document.querySelectorAll('.selected')
+    if (cellSelected.classList.contains('P')){
+        
     }
 }
 

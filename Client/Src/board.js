@@ -64,7 +64,7 @@ function init_board(){
             var cells = row[m].childNodes[n]
             // A chaque case on injecte la valeur de la colonne correspondante à j et 8 - i
             // La ligne de code suivante permet d'afficher le nom de la case
-            // cells.innerHTML = cols[n] + (row.length - m)
+            cells.innerHTML = cols[n] + (row.length - m)
             cells.id = cols[n] + (row.length - m)
         }
     }
